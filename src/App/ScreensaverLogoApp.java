@@ -45,7 +45,7 @@ public class ScreensaverLogoApp extends Application {
 
 		// initialize DVD-Logo and place in Scene
 		Random r = new Random();
-		img = new ImageView(new Image("DVD_Logo.png"));
+		img = new ImageView(new Image("heineken-logo-black-and-white.png"));
 		Bounds imgBnd = img.getBoundsInLocal();
 		int scaledWidth = (int) (imgBnd.getWidth() * 0.15);
 		int scaledHeight = (int) (imgBnd.getHeight() * 0.15);
